@@ -11,3 +11,15 @@ C:\Users\Rick\source\repos\ConectandoBanco\ConectandoBanco\obj\Debug\ConectandoB
 C:\Users\Rick\source\repos\ConectandoBanco\ConectandoBanco\obj\Debug\Conectan.EFA7AEBD.Up2Date
 C:\Users\Rick\source\repos\ConectandoBanco\ConectandoBanco\obj\Debug\ConectandoBanco.exe
 C:\Users\Rick\source\repos\ConectandoBanco\ConectandoBanco\obj\Debug\ConectandoBanco.pdb
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\bin\Debug\ConectandoBanco.exe.config
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\bin\Debug\ConectandoBanco.exe
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\bin\Debug\ConectandoBanco.pdb
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\bin\Debug\System.Memory.dll
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\bin\Debug\MySql.Data.xml
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\obj\Debug\ConectandoBanco.csproj.AssemblyReference.cache
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\obj\Debug\ConectandoBanco.csproj.CoreCompileInputs.cache
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\obj\Debug\Conectan.EFA7AEBD.Up2Date
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\obj\Debug\ConectandoBanco.exe
+C:\Users\Rick\Desktop\Atividade-ConectandoBanco\ConectandoBanco\obj\Debug\ConectandoBanco.pdb
