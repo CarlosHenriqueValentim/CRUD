@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace ConectandoBanco
+namespace CRUD
 {
     internal class Program
     {
-        const string CONNECTION_STRING = "server=localhost;uid=root;pwd=root;database=escola;port=3306";
+        const string conexao = "server=localhost;uid=root;pwd=root;database=escola;port=3306";
 
         static void Main(string[] args)
         {
@@ -17,7 +17,18 @@ namespace ConectandoBanco
             {
                 try
                 {
-                    Console.Write("Gerenciador de Alunos - Console (C# + MySQL WorkBench 8.0)\n\nMenu\n\n1 - Cadastrar aluno\n2 - Listar todos os alunos\n3 - Buscar aluno por nome\n4 - Atualizar aluno\n5 - Excluir aluno\n6 - Exibir total de alunos\nQ - Sair \n\nEscolha uma opção:");
+                    Console.Write("" +
+                        "Gerenciador de Alunos - (C# + MySQL WorkBench 8.0)\n\n" +
+                        "Menu\n\n" +
+                        "1 - Cadastrar aluno\n" +
+                        "2 - Listar todos os alunos\n" +
+                        "3 - Buscar aluno por nome\n" +
+                        "4 - Atualizar aluno\n" +
+                        "5 - Excluir aluno\n" +
+                        "6 - Exibir total de alunos\n" +
+                        "Q - Sair \n\n" +
+                        "Escolha uma opção:");
+
                     var opc = Console.ReadLine();
 
                     switch (opc)
@@ -42,20 +53,20 @@ namespace ConectandoBanco
 
         static MySqlConnection GetConnection()
         {
-            return new MySqlConnection(CONNECTION_STRING);
+            return new MySqlConnection(conexao);
         }
 
         static void CadastrarAluno()
         {
-            Console.Write("\nNome: ");
+            Console.Write("\nNome:");
             string nome = Console.ReadLine();
-            Console.Write("Idade: ");
+            Console.Write("Idade:");
             if (!int.TryParse(Console.ReadLine(), out int idade))
             {
                 Console.WriteLine("\nIdade inválida\n");
                 return;
             }
-            Console.Write("Curso: ");
+            Console.Write("Curso:");
             string curso = Console.ReadLine();
 
             string sqlInsert = "INSERT INTO alunos (Nome, Idade, Curso) VALUES (@nome, @idade, @curso)";
@@ -71,13 +82,13 @@ namespace ConectandoBanco
                         cmd.Parameters.AddWithValue("@idade", idade);
                         cmd.Parameters.AddWithValue("@curso", curso);
                         int linhas = cmd.ExecuteNonQuery();
-                        Console.WriteLine(linhas + " registro(s) inserido(s).");
+                        Console.WriteLine(linhas + "\nregistro(s) inserido(s)\n");
                     }
                 }
             }
             catch (MySqlException mex)
             {
-                Console.WriteLine("\nErro ao inserir: " + mex.Message);
+                Console.WriteLine("\nErro ao inserir:" + mex.Message);
             }
         }
 
@@ -139,31 +150,31 @@ namespace ConectandoBanco
                                 string curso = reader.GetString("Curso");
                                 Console.WriteLine("Id: " + id + " | Nome: " + nome + " | Idade: " + idade + " | Curso: " + curso);
                             }
-                            if (!encontrou) Console.WriteLine("Nenhum resultado.");
+                            if (!encontrou) Console.WriteLine("\nNenhum resultado");
                         }
                     }
                 }
             }
             catch (MySqlException mex)
             {
-                Console.WriteLine("Erro na busca: " + mex.Message);
+                Console.WriteLine("\nErro na busca:" + mex.Message);
             }
         }
 
         static void AtualizarAluno()
         {
-            Console.Write("Id do aluno a atualizar: ");
+            Console.Write("\nId do aluno a atualizar:");
             if (!int.TryParse(Console.ReadLine(), out int id))
             {
-                Console.WriteLine("Id inválido.");
+                Console.WriteLine("\nId inválido");
                 return;
             }
 
-            Console.Write("Novo nome (enter para manter): ");
+            Console.Write("Novo nome (enter para manter):");
             string novoNome = Console.ReadLine();
-            Console.Write("Nova idade (enter para manter): ");
+            Console.Write("Nova idade (enter para manter):");
             string idadeInput = Console.ReadLine();
-            Console.Write("Novo curso (enter para manter): ");
+            Console.Write("Novo curso (enter para manter):");
             string novoCurso = Console.ReadLine();
 
             string selectSql = "SELECT Nome, Idade, Curso FROM alunos WHERE Id = @id";
@@ -180,7 +191,7 @@ namespace ConectandoBanco
                         {
                             if (!reader.Read())
                             {
-                                Console.WriteLine("Aluno não encontrado.");
+                                Console.WriteLine("\nAluno não encontrado");
                                 return;
                             }
 
@@ -202,7 +213,7 @@ namespace ConectandoBanco
                                 updateCmd.Parameters.AddWithValue("@curso", cursoFinal);
                                 updateCmd.Parameters.AddWithValue("@id", id);
                                 int linhas = updateCmd.ExecuteNonQuery();
-                                Console.WriteLine(linhas + " registro(s) atualizado(s).");
+                                Console.WriteLine(linhas + " registro(s) atualizado(s)");
                             }
                         }
                     }
@@ -210,13 +221,13 @@ namespace ConectandoBanco
             }
             catch (MySqlException mex)
             {
-                Console.WriteLine("Erro ao atualizar: " + mex.Message);
+                Console.WriteLine("\nErro ao atualizar:" + mex.Message);
             }
         }
 
         static void ExcluirAluno()
         {
-            Console.Write("Id do aluno a excluir: ");
+            Console.Write("Id do aluno a excluir:");
             if (!int.TryParse(Console.ReadLine(), out int id))
             {
                 Console.WriteLine("\nId inválido\n");
@@ -233,13 +244,13 @@ namespace ConectandoBanco
                     {
                         cmd.Parameters.AddWithValue("@id", id);
                         int linhas = cmd.ExecuteNonQuery();
-                        Console.WriteLine(linhas + " registro(s) excluído(s).");
+                        Console.WriteLine(linhas + "registro(s) excluído(s).");
                     }
                 }
             }
             catch (MySqlException mex)
             {
-                Console.WriteLine("Erro ao excluir: " + mex.Message);
+                Console.WriteLine("\nErro ao excluir:" + mex.Message);
             }
         }
 
@@ -254,13 +265,13 @@ namespace ConectandoBanco
                     using (var cmd = new MySqlCommand(sql, conexao))
                     {
                         var result = cmd.ExecuteScalar();
-                        Console.WriteLine("Total de alunos: " + result);
+                        Console.WriteLine("\nTotal de alunos:" + result);
                     }
                 }
             }
             catch (MySqlException mex)
             {
-                Console.WriteLine("Erro ao contar: " + mex.Message);
+                Console.WriteLine("\nErro ao contar:" + mex.Message);
             }
         }
     }

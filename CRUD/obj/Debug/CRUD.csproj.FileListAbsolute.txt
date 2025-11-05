@@ -1,0 +1,12 @@
+C:\Users\Rick\Desktop\CRUD\CRUD\bin\Debug\ConectandoBanco.exe.config
+C:\Users\Rick\Desktop\CRUD\CRUD\bin\Debug\ConectandoBanco.exe
+C:\Users\Rick\Desktop\CRUD\CRUD\bin\Debug\ConectandoBanco.pdb
+C:\Users\Rick\Desktop\CRUD\CRUD\bin\Debug\System.Memory.dll
+C:\Users\Rick\Desktop\CRUD\CRUD\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rick\Desktop\CRUD\CRUD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rick\Desktop\CRUD\CRUD\bin\Debug\MySql.Data.xml
+C:\Users\Rick\Desktop\CRUD\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+C:\Users\Rick\Desktop\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\Rick\Desktop\CRUD\CRUD\obj\Debug\CRUD.csproj.Up2Date
+C:\Users\Rick\Desktop\CRUD\CRUD\obj\Debug\ConectandoBanco.exe
+C:\Users\Rick\Desktop\CRUD\CRUD\obj\Debug\ConectandoBanco.pdb
