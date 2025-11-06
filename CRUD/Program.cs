@@ -29,7 +29,7 @@ namespace CRUD
                         "Q - Sair \n\n" +
                         "Escolha uma opção:");
 
-                    var opc = Console.ReadLine();
+                    string opc = Console.ReadLine();
 
                     switch (opc)
                     {
