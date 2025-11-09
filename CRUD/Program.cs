@@ -16,7 +16,7 @@ namespace CRUD
 
         static void Main(string[] args)
         {
-            while (true)
+            for(;;)
             {
                 try
                 {
