@@ -7,14 +7,14 @@ using MySql.Data.MySqlClient;
 
 namespace CRUD
 {
-    internal class Criar
+    class Criar
     {
         public static void CadastrarAluno(string conexao)
         {
             Console.Write("\nNome:");
             string nome = Console.ReadLine();
 
-            Console.Write("Idade:");
+            Console.Write("\nIdade:");
             string idadeTexto = Console.ReadLine();
             int idade;
             if (!int.TryParse(idadeTexto, out idade))
@@ -23,7 +23,7 @@ namespace CRUD
                 return;
             }
 
-            Console.Write("Curso:");
+            Console.Write("\nCurso:");
             string curso = Console.ReadLine();
 
             string sqlInsert = "INSERT INTO alunos (Nome, Idade, Curso) VALUES (@nome, @idade, @curso)";
@@ -45,7 +45,7 @@ namespace CRUD
             }
             catch (MySqlException mex)
             {
-                Console.WriteLine("\nErro ao inserir:" + mex.Message);
+                Console.WriteLine("\nErro ao inserir:" + mex.Message + "\n");
             }
         }
     }

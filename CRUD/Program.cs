@@ -52,7 +52,7 @@ namespace CRUD
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("\nErro inesperado: \n" + ex.Message);
+                    Console.WriteLine("\nErro inesperado: " + ex.Message + "\n");
                 }
             }
         }

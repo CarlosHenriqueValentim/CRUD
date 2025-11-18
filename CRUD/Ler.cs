@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 
 namespace CRUD
 {
-    internal class Ler
+    class Ler
     {
         public static void ListarAlunos(string conexao)
         {
@@ -42,7 +42,7 @@ namespace CRUD
             }
             catch (MySqlException mex)
             {
-                Console.WriteLine("\nErro ao listar: " + mex.Message);
+                Console.WriteLine("\nErro ao listar: " + mex.Message + "\n");
             }
         }
 
@@ -74,14 +74,14 @@ namespace CRUD
                 }
 
                 if (!encontrou)
-                    Console.WriteLine("\nNenhum resultado");
+                    Console.WriteLine("\nNenhum resultado\n");
 
                 reader.Close();
                 conn.Close();
             }
             catch (MySqlException mex)
             {
-                Console.WriteLine("\nErro na busca:" + mex.Message);
+                Console.WriteLine("\nErro na busca:" + mex.Message + "\n");
             }
         }
 

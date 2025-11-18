@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Rick\\Desktop\\CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|c:\\users\\rick\\desktop\\crud\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|C:\\Users\\Rick\\Desktop\\CRUD\\crud\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|solutionrelative:crud\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|c:\\users\\rick\\desktop\\crud\\crud\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|solutionrelative:crud\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|c:\\users\\rick\\desktop\\crud\\crud\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|C:\\Users\\Rick\\Desktop\\CRUD\\crud\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|solutionrelative:crud\\atualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|c:\\users\\rick\\desktop\\crud\\crud\\ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|C:\\Users\\Rick\\Desktop\\CRUD\\crud\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|solutionrelative:crud\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|C:\\Users\\Rick\\Desktop\\CRUD\\crud\\ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|solutionrelative:crud\\ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|c:\\users\\rick\\desktop\\crud\\crud\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|solutionrelative:crud\\criar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|c:\\users\\rick\\desktop\\crud\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB229B81-0223-4E01-8AE8-39DD865F17C8}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Excluir.cs",
               "DocumentMoniker": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Excluir.cs",
               "RelativeDocumentMoniker": "CRUD\\Excluir.cs",
-              "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Excluir.cs",
-              "RelativeToolTip": "CRUD\\Excluir.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Excluir.cs*",
+              "RelativeToolTip": "CRUD\\Excluir.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T15:13:35.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Atualizar.cs",
               "DocumentMoniker": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Atualizar.cs",
               "RelativeDocumentMoniker": "CRUD\\Atualizar.cs",
-              "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Atualizar.cs",
-              "RelativeToolTip": "CRUD\\Atualizar.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Atualizar.cs*",
+              "RelativeToolTip": "CRUD\\Atualizar.cs*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T15:13:23.599Z",
               "EditorCaption": ""
@@ -64,35 +64,35 @@
               "Title": "Ler.cs",
               "DocumentMoniker": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Ler.cs",
               "RelativeDocumentMoniker": "CRUD\\Ler.cs",
-              "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Ler.cs",
-              "RelativeToolTip": "CRUD\\Ler.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwGYAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Ler.cs*",
+              "RelativeToolTip": "CRUD\\Ler.cs*",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowFMAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T15:13:07.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Criar.cs",
               "DocumentMoniker": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Criar.cs",
               "RelativeDocumentMoniker": "CRUD\\Criar.cs",
-              "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Criar.cs",
-              "RelativeToolTip": "CRUD\\Criar.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Criar.cs*",
+              "RelativeToolTip": "CRUD\\Criar.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T15:12:46.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Program.cs",
               "RelativeDocumentMoniker": "CRUD\\Program.cs",
               "ToolTip": "C:\\Users\\Rick\\Desktop\\CRUD\\CRUD\\Program.cs*",
               "RelativeToolTip": "CRUD\\Program.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T15:07:14.71Z",
               "EditorCaption": ""

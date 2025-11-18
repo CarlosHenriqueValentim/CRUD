@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 
 namespace CRUD
 {
-    internal class Atualizar
+    class Atualizar
     {
         public static void AtualizarAluno(string conexao)
         {
@@ -20,13 +20,13 @@ namespace CRUD
                 return;
             }
 
-            Console.Write("Novo nome (enter para manter):");
+            Console.Write("\nNovo nome:");
             string novoNome = Console.ReadLine();
 
-            Console.Write("Nova idade (enter para manter):");
+            Console.Write("\nNova idade:");
             string idadeInput = Console.ReadLine();
 
-            Console.Write("Novo curso (enter para manter):");
+            Console.Write("\nNovo curso:");
             string novoCurso = Console.ReadLine();
 
             string selectSql = "SELECT Nome, Idade, Curso FROM alunos WHERE Id = @id";
@@ -42,7 +42,7 @@ namespace CRUD
 
                 if (!reader.Read())
                 {
-                    Console.WriteLine("\nAluno não encontrado");
+                    Console.WriteLine("\nAluno não encontrado\n");
                     reader.Close();
                     conn.Close();
                     return;
@@ -73,7 +73,7 @@ namespace CRUD
                 updateCmd.Parameters.AddWithValue("@id", id);
 
                 int linhas = updateCmd.ExecuteNonQuery();
-                Console.WriteLine(linhas + " registro(s) atualizado(s)");
+                Console.WriteLine(linhas + "\nregistro atualizado");
 
                 conn.Close();
             }
